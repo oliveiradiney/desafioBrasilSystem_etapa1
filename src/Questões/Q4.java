@@ -5,12 +5,6 @@ import java.util.Scanner;
 
 /*Faça o somatório da sua data de nascimento. */
 public class Q4 {
-	/*
-	public static String formataBarra(String barra) {
-		barra=barra.replaceAll("/", "");	
-		return barra;
-	}*/
-	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Digite sua data de nascimento:");
