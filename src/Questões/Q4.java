@@ -1,9 +1,9 @@
-package Questões;
+package QuestÃµes;
 
 
 import java.util.Scanner;
 
-/*Faça o somatório da sua data de nascimento. */
+/*FaÃ§a o somatÃ³rio da sua data de nascimento. */
 public class Q4 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -18,7 +18,7 @@ public class Q4 {
 		
 		for(int i=0; i<vetor.length;i++) {
 			somatorio = somatorio+Integer.parseInt(vetor[i]);
-	    	System.out.print(i<vetor.length - 1? vetor[i] + " + " : vetor[i] + "");
+	    		System.out.print(i<vetor.length - 1? vetor[i] + " + " : vetor[i] + "");
 		}
 		System.out.print(" = " + somatorio);
 	}
