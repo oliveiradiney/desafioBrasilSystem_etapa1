@@ -7,11 +7,12 @@ import java.util.Scanner;
 public class Q5 {
 	
 	public static void main(String[] args) {
-		try (Scanner input = new Scanner(System.in)) {
-			int ddd;
-			System.out.println("Digite o DDD");
-			ddd = input.nextInt();
-			 switch (ddd) {
+		Scanner input = new Scanner(System.in);
+		int ddd;
+		System.out.println("Digite o DDD");
+		ddd = input.nextInt();
+		
+		switch (ddd) {
 			 case 61:
 			     System.out.println("Brasília.");
 			     break;
@@ -37,4 +38,4 @@ public class Q5 {
 		}
 	}
 
-}
+
